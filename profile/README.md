@@ -3,47 +3,17 @@
 <br/>
 <br/>
 
-<!-- <p align="center">
-  <img src="doc/logo.png" alt="Logo" width="192" />
+<p align="center">
+  <img src="images/cram-ai.png" alt="Logo" width="192" />
 </p>
 <br/>
 <p align="center">
 <a href="">Website</a> -
 <a href="">Status</a> -
 <a href="">Documentation</a>
-</p> -->
+</p>
 
 **Cram.AI** is an all in one AI study platform with AI summaries of class notes, lectures, and PDFs, as well as AI generated flashcards
-
-## Structure
-| Path                    | Description        |
-| ----------------------- | ------------------ |
-| `./api`                 | API for the website|
-| `./cram`                 | Ollama API |
-| `./web`                 | dashboard for cram.ai |
-| `./migrations`           | kysely database migrations |
----
-
-**Fill in the environment variables before deploying. All data is stored in a Postgresql database.**
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#cram-ai">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#setup">Setup</a>
-      <a href="#deploy">Deploy</a>
-      <a href="#updating">Updating</a>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
 
 ### Built With
 * [![Python][Python]][Python-url]
@@ -51,108 +21,37 @@
 * [![Next.js][Next.js]][Next-url]
 * [![React.js][React.js]][React-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Repositories
 
-## Setup
-> [!IMPORTANT]  
-> Open a new issue if you find any bugs
+### Clients
 
-Prerequisites: 
-- Node.js @ https://nodejs.org/en/download
-- npm install -g pnpm
+Here are the clients that are actively being maintained:
 
-`./api`
-- cd api
-- create .env
-```env
-JWT_SECRET="" # openssl rand -base64 32
-DATABASE_URL="postgresql://postgres:hamburger@localhost:5432/cramai"
-REDIS_STRING="redis://localhost:6379"
-PORT=3001
-API_URL="http://localhost:3001"
-DASHBOARD_URL="http://localhost:3000"
+| Repository                                                             | Description                         |               Maintainer(s)                | Fit For Use |
+| ---------------------------------------------------------------------- | ----------------------------------- | :----------------------------------------: | :---------: |
+| [web](https://github.com/CramDotAI/web)                                | Next.js Web App                     | [@decompile1](https://github.com/decompile1) |     ✅      |
 
-INNGEST_EVENT_KEY=local
-INNGEST_BASE_URL=http://localhost:8288
-INNGEST_DEV=1
+### Server Software
 
-CRAM_AI_ROUTE=http://192.168.1.229:2727
+Below is a list of all the repositories relevant to developing the core CramAI service.
 
-AWS_ACCESS_KEY_ID=minioadmin
-AWS_SECRET_ACCESS_KEY=minioadmin
-AWS_REGION=us-east-1
-S3_BUCKET_NAME=cramai
-AWS_ENDPOINT="http://localhost:9000"
-COOKIE_DOMAIN=localhost
-```
-- pnpm install
-- pnpm dev
+| Repository                                                                  | Description                                   |               Maintainer(s)                |
+| --------------------------------------------------------------------------- | --------------------------------------------- | :----------------------------------------: |
+| [api](https://github.com/CramDotAI/api)                                     | Hono.js api service                           | [@decompile1](https://github.com/decompile1) |
 
-`./web`
-- cd web
-- create .env
-```env
-CRAMAI_SECRET="123456"
-AWS_ACCESS_KEY_ID=minioadmin
-AWS_SECRET_ACCESS_KEY=minioadmin
-AWS_REGION=us-east-1
-S3_BUCKET_NAME=cramai
-NEXT_PUBLIC_API_URL=http://localhost:3001
-NEXT_PUBLIC_COOKIE_DOMAIN=localhost
-BACKEND_API_KEY=123456
-```
-- pnpm install
-- pnpm dev
+### Everything Else
 
-See the [open issues](https://github.com/Decompile1/cram-ai/issues) for a full list of proposed features and known issues.
+Here is a list of other important repositories and who is managing each.
+
+| Repository                                                              | Description                                |                   Maintainer(s)                    |
+| ----------------------------------------------------------------------- | ------------------------------------------ | :------------------------------------------------: |
+| [cram](https://github.com/CramDotAI/cram)                               | Ollama api                                 | [@decompile1](https://github.com/decompile1)       |
+| [dock](https://github.com/CramDotAI/dock)                               | Landing page                               | [@decompile1](https://github.com/decompile1)       |
+| [service-admin-panel](https://github.com/CramDotAI/service-admin-panel) | Service administration tool                | [@decompile1](https://github.com/decompile1)       |
+| [self-hosted](https://github.com/CramDotAI/self-hosted)                 | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
+| [translations](https://github.com/CramDotAI/translations)               | Client translations                        | [@decompile1](https://github.com/decompile1)       |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Deploy
-```
-cd api
-docker build -t cram-api .
-docker compose up -d
-```
-```
-cd cram
-docker build -t cram-ai .
-docker compose up -d
-```
-```
-cd web
-docker build -t cram-web .
-docker compose up -d
-```
-
-```
-docker pull postgres
-docker volume create postgres_data
-sudo docker run -d --name postgres_container -e POSTGRES_PASSWORD=hamburgers -p 5432:5432 -v postgres_data:/var/lib/postgresql/data postgres
-docker ps
-```
-
-```
-docker pull redis
-docker run -d --name cram-ai-redis -p 6379:6379 redis
-docker ps
-```
-
-## Updating
-```
-# if any errors
-git reset --hard
-
-git pull
-
-docker compose -f docker-compose.gpu down
-docker compose -f docker-compose.gpu up -d --build
-
-# dev testing
-sudo docker compose -f docker-compose.gpu build --no-cache
-docker compose -f docker-compose.gpu up -d
-```
-use --no-cache if you are having caching issues with docker
 
 ## Contributing
 
@@ -174,27 +73,6 @@ Don't forget to give the project a star!
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## License
-<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-  <img align="right" height="72" alt="GNU GENERAL PUBLIC LICENSE v3.0" src="doc/GPLv3_Logo.png" />
-</a>
-Cram-AI is licensed under the GNU GENERAL PUBLIC LICENSE v3.0. See LICENSE for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Resources
-- https://www.postgresql.org/download/macosx/
-- https://postgresapp.com/
-- https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-mac-os/
-- https://nodejs.org/en/download
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=decompile1/cram-ai&type=date&legend=top-left)](https://www.star-history.com/#decompile1/cram-ai&type=date&legend=top-left)
 
 [contributors-shield]: https://img.shields.io/github/contributors/Decompile1/cram-ai.svg?style=for-the-badge
 [contributors-url]: https://github.com/Decompile1/cram-ai/graphs/contributors
