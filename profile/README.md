@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <img src="images/cram-ai.png" alt="Logo" width="192" />
+  <img src="doc/cram-ai.webp" alt="Logo" width="192" />
 </p>
 <br/>
 <p align="center">
