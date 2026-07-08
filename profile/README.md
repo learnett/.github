@@ -53,27 +53,6 @@ Here is a list of other important repositories and who is managing each.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contributing
-
-Contributions is what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**!
-
-To contribute, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/Decompile1/cram-ai/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Decompile1/cram-ai" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 [contributors-shield]: https://img.shields.io/github/contributors/Decompile1/cram-ai.svg?style=for-the-badge
 [contributors-url]: https://github.com/Decompile1/cram-ai/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Decompile1/cram-ai.svg?style=for-the-badge
