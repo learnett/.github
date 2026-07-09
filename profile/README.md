@@ -46,8 +46,7 @@ Here is a list of other important repositories and who is managing each.
 | Repository                                                              | Description                                |                   Maintainer(s)                    |
 | ----------------------------------------------------------------------- | ------------------------------------------ | :------------------------------------------------: |
 | [cram](https://github.com/CramDotAI/cram)                               | Ollama api                                 | [@decompile1](https://github.com/decompile1)       |
-| [dock](https://github.com/CramDotAI/dock)                               | Landing page                               | [@decompile1](https://github.com/decompile1)       |
-| [service-admin-panel](https://github.com/CramDotAI/service-admin-panel) | Service administration tool                | [@decompile1](https://github.com/decompile1)       |
+| [cram.ai](https://github.com/CramDotAI/cram.ai)                         | Landing page                               | [@decompile1](https://github.com/decompile1)       |
 | [self-hosted](https://github.com/CramDotAI/self-hosted)                 | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
 | [translations](https://github.com/CramDotAI/translations)               | Client translations                        | [@decompile1](https://github.com/decompile1)       |
 
