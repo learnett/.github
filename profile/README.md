@@ -13,7 +13,7 @@
 <a href="">Documentation</a>
 </p>
 
-**lear.net** is an all in one AI study platform with AI summaries of class notes, lectures, and PDFs, as well as AI generated flashcards
+**learnet.app** is an all in one AI study platform with AI summaries of class notes, lectures, and PDFs, as well as AI generated flashcards
 
 ### Built With
 * [![Python][Python]][Python-url]
@@ -46,7 +46,7 @@ Here is a list of other important repositories and who is managing each.
 | Repository                                                              | Description                                |                   Maintainer(s)                    |
 | ----------------------------------------------------------------------- | ------------------------------------------ | :------------------------------------------------: |
 | [learnet](https://github.com/learnett/learnet)                               | Ollama api                                 | [@decompile1](https://github.com/decompile1)       |
-| [lear.net](https://github.com/learnett/lear.net)                         | Landing page                               | [@decompile1](https://github.com/decompile1)       |
+| [learnet.app](https://github.com/learnett/learnet.app)                         | Landing page                               | [@decompile1](https://github.com/decompile1)       |
 | [self-hosted](https://github.com/learnett/self-hosted)                 | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
 | [translations](https://github.com/learnett/translations)               | Client translations                        | [@decompile1](https://github.com/decompile1)       |
 
