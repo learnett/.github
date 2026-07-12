@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CramDotAI/.github/refs/heads/main/images/cram-ai.webp" alt="Logo" width="192" />
+  <img src="https://raw.githubusercontent.com/learnett/.github/refs/heads/main/images/learnet.webp" alt="Logo" width="192" />
 </p>
 <br/>
 <p align="center">
@@ -13,7 +13,7 @@
 <a href="">Documentation</a>
 </p>
 
-**Cram.AI** is an all in one AI study platform with AI summaries of class notes, lectures, and PDFs, as well as AI generated flashcards
+**lear.net** is an all in one AI study platform with AI summaries of class notes, lectures, and PDFs, as well as AI generated flashcards
 
 ### Built With
 * [![Python][Python]][Python-url]
@@ -29,15 +29,15 @@ Here are the clients that are actively being maintained:
 
 | Repository                                                             | Description                         |               Maintainer(s)                | Fit For Use |
 | ---------------------------------------------------------------------- | ----------------------------------- | :----------------------------------------: | :---------: |
-| [web](https://github.com/CramDotAI/web)                                | Next.js Web App                     | [@decompile1](https://github.com/decompile1) |     ✅      |
+| [web](https://github.com/learnett/web)                                | Next.js Web App                     | [@decompile1](https://github.com/decompile1) |     ✅      |
 
 ### Server Software
 
-Below is a list of all the repositories relevant to developing the core CramAI service.
+Below is a list of all the repositories relevant to developing the core Learnet service.
 
 | Repository                                                                  | Description                                   |               Maintainer(s)                |
 | --------------------------------------------------------------------------- | --------------------------------------------- | :----------------------------------------: |
-| [api](https://github.com/CramDotAI/api)                                     | Hono.js api service                           | [@decompile1](https://github.com/decompile1) |
+| [api](https://github.com/learnett/api)                                     | Hono.js api service                           | [@decompile1](https://github.com/decompile1) |
 
 ### Everything Else
 
@@ -45,24 +45,13 @@ Here is a list of other important repositories and who is managing each.
 
 | Repository                                                              | Description                                |                   Maintainer(s)                    |
 | ----------------------------------------------------------------------- | ------------------------------------------ | :------------------------------------------------: |
-| [cram](https://github.com/CramDotAI/cram)                               | Ollama api                                 | [@decompile1](https://github.com/decompile1)       |
-| [cram.ai](https://github.com/CramDotAI/cram.ai)                         | Landing page                               | [@decompile1](https://github.com/decompile1)       |
-| [self-hosted](https://github.com/CramDotAI/self-hosted)                 | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
-| [translations](https://github.com/CramDotAI/translations)               | Client translations                        | [@decompile1](https://github.com/decompile1)       |
+| [learnet](https://github.com/learnett/learnet)                               | Ollama api                                 | [@decompile1](https://github.com/decompile1)       |
+| [lear.net](https://github.com/learnett/lear.net)                         | Landing page                               | [@decompile1](https://github.com/decompile1)       |
+| [self-hosted](https://github.com/learnett/self-hosted)                 | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
+| [translations](https://github.com/learnett/translations)               | Client translations                        | [@decompile1](https://github.com/decompile1)       |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Decompile1/cram-ai.svg?style=for-the-badge
-[contributors-url]: https://github.com/Decompile1/cram-ai/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Decompile1/cram-ai.svg?style=for-the-badge
-[forks-url]: https://github.com/Decompile1/cram-ai/network/members
-[stars-shield]: https://img.shields.io/github/stars/Decompile1/cram-ai.svg?style=for-the-badge
-[stars-url]: https://github.com/Decompile1/cram-ai/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Decompile1/cram-ai.svg?style=for-the-badge
-[issues-url]: https://github.com/Decompile1/cram-ai/issues
-[license-shield]: https://img.shields.io/github/license/Decompile1/cram-ai.svg?style=for-the-badge
-[license-url]: https://github.com/Decompile1/cram-ai/blob/master/LICENSE.txt
-[product-screenshot]: /screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
