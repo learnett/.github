@@ -37,7 +37,7 @@ Below is a list of all the repositories relevant to developing the core Learnet 
 
 | Repository                                                                  | Description                                   |               Maintainer(s)                |
 | --------------------------------------------------------------------------- | --------------------------------------------- | :----------------------------------------: |
-| [api](https://github.com/learnett/api)                                     | Hono.js api service                           | [@decompile1](https://github.com/decompile1) |
+| [backend](https://github.com/learnett/backend)                                     | All backend services                          | [@decompile1](https://github.com/decompile1) |
 
 ### Everything Else
 
