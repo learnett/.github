@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/learnett/.github/refs/heads/main/images/learnet.webp" alt="Logo" width="192" />
+  <img src="https://raw.githubusercontent.com/learnett/.github/refs/heads/main/images/learnet2.webp" alt="Logo" width="192" />
 </p>
 <br/>
 <p align="center">
