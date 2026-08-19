@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/learnett/.github/refs/heads/main/images/learnet2.webp" alt="Logo" width="192" />
+  <img src="https://raw.githubusercontent.com/learnetapp/.github/refs/heads/main/images/learnet2.webp" alt="Logo" width="192" />
 </p>
 <br/>
 <p align="center">
@@ -29,8 +29,8 @@ Here are the clients that are actively being maintained:
 
 | Repository                                                             | Description                         |               Maintainer(s)                | Fit For Use |
 | ---------------------------------------------------------------------- | ----------------------------------- | :----------------------------------------: | :---------: |
-| [web](https://github.com/learnett/web)                                | Next.js Web App                     | [@decompile1](https://github.com/decompile1) |     ✅      |
-| [desktop](https://github.com/learnett/desktop)                                | Electron desktop wrapper for Learnet                     | [@decompile1](https://github.com/decompile1) |     ✅      |
+| [web](https://github.com/learnetapp/web)                                | Next.js Web App                     | [@decompile1](https://github.com/decompile1) |     ✅      |
+| [desktop](https://github.com/learnetapp/desktop)                                | Electron desktop wrapper for Learnet                     | [@decompile1](https://github.com/decompile1) |     ✅      |
 
 ### Server Software
 
@@ -38,7 +38,7 @@ Below is a list of all the repositories relevant to developing the core Learnet 
 
 | Repository                                                                  | Description                                   |               Maintainer(s)                |
 | --------------------------------------------------------------------------- | --------------------------------------------- | :----------------------------------------: |
-| [backend](https://github.com/learnett/backend)                                     | All backend services                          | [@decompile1](https://github.com/decompile1) |
+| [backend](https://github.com/learnetapp/backend)                                     | All backend services                          | [@decompile1](https://github.com/decompile1) |
 
 ### Everything Else
 
@@ -46,9 +46,9 @@ Here is a list of other important repositories and who is managing each.
 
 | Repository                                                              | Description                                |                   Maintainer(s)                    |
 | ----------------------------------------------------------------------- | ------------------------------------------ | :------------------------------------------------: |
-| [learnet.app](https://github.com/learnett/learnet.app)                  | Landing page                               | [@decompile1](https://github.com/decompile1)       |
-| [self-hosted](https://github.com/learnett/self-hosted)                  | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
-| [translations](https://github.com/learnett/translations)                | Client translations                        | [@decompile1](https://github.com/decompile1)       |
+| [learnet.app](https://github.com/learnetapp/learnet.app)                  | Landing page                               | [@decompile1](https://github.com/decompile1)       |
+| [self-hosted](https://github.com/learnetapp/self-hosted)                  | Docker Compose Configuration               | [@decompile1](https://github.com/decompile1)       |
+| [translations](https://github.com/learnetapp/translations)                | Client translations                        | [@decompile1](https://github.com/decompile1)       |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
