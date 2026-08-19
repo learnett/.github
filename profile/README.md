@@ -30,6 +30,7 @@ Here are the clients that are actively being maintained:
 | Repository                                                             | Description                         |               Maintainer(s)                | Fit For Use |
 | ---------------------------------------------------------------------- | ----------------------------------- | :----------------------------------------: | :---------: |
 | [web](https://github.com/learnett/web)                                | Next.js Web App                     | [@decompile1](https://github.com/decompile1) |     ✅      |
+| [desktop](https://github.com/learnett/desktop)                                | Electron desktop wrapper for Learnet                     | [@decompile1](https://github.com/decompile1) |     ✅      |
 
 ### Server Software
 
